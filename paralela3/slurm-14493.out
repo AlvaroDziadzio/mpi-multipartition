@@ -1,0 +1,98 @@
+-----------------------------------
+-----------------------------------
+-----------------------------------
+---------- ATENCAO: usar --exclusive na linha de comando
+-----------------------------------
+/var/spool/slurmd/job14493/slurm_script rodando no host  hostname
+SLURM_JOB_NAME:  exp1
+SLURM_NODELIST:  wz11
+SLURM_JOB_NODELIST:  wz11
+SLURM_JOB_CPUS_PER_NODE:  8
+/var/spool/slurmd/job14493/slurm_script: line 23: module: command not found
+
+===Particionamento COM ERROS===
+Erro no elemento Output[0] = 156826049378712457 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 162118660 ns for 1 ops 
+        ==> each op takes 162118660 ns
+total_time_in_seconds: 0.162119 s
+Throughput: 49346571.209014 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[1] = 56676042076605633 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 142804613 ns for 1 ops 
+        ==> each op takes 142804613 ns
+total_time_in_seconds: 0.142805 s
+Throughput: 56020599.278540 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[2] = 224372849830711982 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 133422343 ns for 1 ops 
+        ==> each op takes 133422343 ns
+total_time_in_seconds: 0.133422 s
+Throughput: 59959972.371344 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[3] = 55477070791572749 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 133886439 ns for 1 ops 
+        ==> each op takes 133886439 ns
+total_time_in_seconds: 0.133886 s
+Throughput: 59752130.684423 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[4] = 82815818819685785 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 127693892 ns for 1 ops 
+        ==> each op takes 127693892 ns
+total_time_in_seconds: 0.127694 s
+Throughput: 62649825.098917 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[5] = 181798055931689501 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 130893321 ns for 1 ops 
+        ==> each op takes 130893321 ns
+total_time_in_seconds: 0.130893 s
+Throughput: 61118473.722582 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[6] = 102244497152152226 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 128260933 ns for 1 ops 
+        ==> each op takes 128260933 ns
+total_time_in_seconds: 0.128261 s
+Throughput: 62372850.507800 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[7] = 233575942625944598 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 126909924 ns for 1 ops 
+        ==> each op takes 126909924 ns
+total_time_in_seconds: 0.126910 s
+Throughput: 63036835.480258 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[8] = 85803946188353375 na partição [924865417131922241, 930563537742764665)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 126776108 ns for 1 ops 
+        ==> each op takes 126776108 ns
+total_time_in_seconds: 0.126776 s
+Throughput: 63103372.758533 OP/s
+
+===Particionamento COM ERROS===
+Erro no elemento Output[8] = 85803946188353375 na partição [924865417131922241, 930563537742764665)
+numElem = 8000000
+mp_mpi_time deltaT(ns): 127180419 ns for 1 ops 
+        ==> each op takes 127180419 ns
+total_time_in_seconds: 0.127180 s
+Throughput: 62902764.929560 OP/s
+O tempo total dessa shell foi de 2 segundos
+SLURM_JOB_NAME:  exp1
+SLURM_NODELIST:  wz11
+SLURM_JOB_NODELIST:  wz11
+SLURM_JOB_CPUS_PER_NODE:  8
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             14493     debug     exp1   nobody  R       0:02      1 wz11

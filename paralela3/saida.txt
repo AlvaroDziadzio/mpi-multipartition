@@ -1,1 +1,1 @@
-/var/spool/slurmd/job14463/slurm_script rodando no host  wz11
+/var/spool/slurmd/job14495/slurm_script rodando no host  hostname

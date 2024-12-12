@@ -6,28 +6,36 @@
 #include "verifica.h"
 #include "chrono.h"
 
-#define NTIMES 10
+#define NTIMES 10      // Número de vezes que o código será executado
 
 long long numElem;
 
 // Alocar Vetor Int
 int *alocaVetInt(int n) {
-        int *vetor = malloc(sizeof(int) * n);
-        if (!vetor) {
-                printf("Erro ao alocar memória.\n");
-                exit(EXIT_FAILURE);
-        }
-        return vetor;
+    if (n <= 0) {
+        printf("Erro: Tamanho do vetor deve ser maior que zero.\n");
+        return NULL; // Retorna NULL se a alocação for inválida
+    }
+    int *vetor = malloc(sizeof(int) * n);
+    if (!vetor) {
+        printf("Erro ao alocar memória para vetor de inteiros. Tentativa de alocar %d elementos.\n", n);
+        exit(EXIT_FAILURE); // Encerra o programa em caso de falha de alocação
+    }
+    return vetor;
 }
 
 // Alocar Vetor Long Long
 long long *alocaVetLongLong(int n) {
-        long long *vetor = malloc(sizeof(long long) * n);
-        if (!vetor) {
-                printf("Erro ao alocar memória.\n");
-                exit(EXIT_FAILURE);
-        }
-        return vetor;
+    if (n <= 0) {
+        printf("Erro: Tamanho do vetor deve ser maior que zero.\n");
+        return NULL; // Retorna NULL se a alocação for inválida
+    }
+    long long *vetor = malloc(sizeof(long long) * n);
+    if (!vetor) {
+        printf("Erro ao alocar memória para vetor de long long. Tentativa de alocar %d elementos.\n", n);
+        exit(EXIT_FAILURE); // Encerra o programa em caso de falha de alocação
+    }
+    return vetor;
 }
 
 // Gera um número long long aleatório
@@ -131,7 +139,6 @@ void multi_partition_mpi(long long *input, int n, long long *P, int np, int *par
         free(insertPos);
 }
 
-
 int main(int argc, char *argv[]) {
 
         if (argc != 3) {
@@ -164,15 +171,6 @@ int main(int argc, char *argv[]) {
         long long *input = alocaVetLongLong(n);
         long long *output = alocaVetLongLong(n);
 
-        if (!input || !P || !output) {
-                printf("Erro: alocação.\n");
-                free(input);
-                free(P);
-                free(output);
-                MPI_Finalize();
-                return EXIT_FAILURE;
-        }
-
         if (rank == 0) {
                 randomVet(P, np - 1);
                 P[np - 1] = LLONG_MAX;
@@ -185,23 +183,23 @@ int main(int argc, char *argv[]) {
 
         chronometer_t mp_mpi_time;
 
-        for (int i = 0; i < NTIMES; i++) {
-        	chrono_reset(&mp_mpi_time);
-        	chrono_start(&mp_mpi_time);
+        for(int i = 0; i < NTIMES; i++) {
+                chrono_reset(&mp_mpi_time);
+                chrono_start(&mp_mpi_time);
                 multi_partition_mpi(input, n, P, np, &partitionStart, output);
                 MPI_Barrier(MPI_COMM_WORLD);
                 chrono_stop(&mp_mpi_time);
 
-    		if (rank == 0) {
-    			verifica_particoes(input, n, P, np, output, &partitionStart);
-                        printf("numElem = %lld\n", numElem);
-    			chrono_reportTime(&mp_mpi_time, "mp_mpi_time");
-    			double total_time_in_seconds = (double) chrono_gettotal(&mp_mpi_time) / ((double)1000*1000*1000);
-        		printf("total_time_in_seconds: %lf s\n", total_time_in_seconds);
-        		double OPS = ((double)numElem) / total_time_in_seconds;
-        		printf("Throughput: %lf OP/s\n", OPS);
-    		}
-	}
+    	        if (rank == 0) {
+    	        	verifica_particoes(input, n, P, np, output, &partitionStart);
+                        printf("numElem = %lld", numElem);
+    	        	chrono_reportTime(&mp_mpi_time, "mp_mpi_time");
+    	        	double total_time_in_seconds = (double) chrono_gettotal(&mp_mpi_time) / ((double)1000*1000*1000);
+                	printf("total_time_in_seconds: %lf s\n", total_time_in_seconds);
+                	double OPS = ((double)numElem) / total_time_in_seconds;
+                	printf("Throughput: %lf OP/s\n", OPS);
+    	        }
+    	}
 	
         MPI_Finalize();
 

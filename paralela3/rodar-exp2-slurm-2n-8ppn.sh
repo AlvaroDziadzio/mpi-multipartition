@@ -11,8 +11,8 @@ echo -----------------------------------
 
 ##### SBATCH --output=saida.out
 
-echo "$0 rodando no host " `hostname`  
-echo "$0 rodando no host " `hostname` >saida.txt
+echo "$0 rodando no host " hostname  
+echo "$0 rodando no host " hostname >saida.txt
 
 echo "SLURM_JOB_NAME: "	$SLURM_JOB_NAME	
 echo "SLURM_NODELIST: " $SLURM_NODELIST 
