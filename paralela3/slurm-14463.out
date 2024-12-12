@@ -1,0 +1,238 @@
+-----------------------------------
+-----------------------------------
+-----------------------------------
+---------- ATENCAO: usar --exclusive na linha de comando
+-----------------------------------
+/var/spool/slurmd/job14463/slurm_script rodando no host  wz11
+SLURM_JOB_NAME:  exp1
+SLURM_NODELIST:  wz11
+SLURM_JOB_NODELIST:  wz11
+SLURM_JOB_CPUS_PER_NODE:  8
+/var/spool/slurmd/job14463/slurm_script: line 23: module: command not found
+====> particionamento COM ERROS
+Erro no elemento Output[0] = 200679689399871754 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[0] = 25318707686146101 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[0] = 75143147911233576 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[0] = 237537437638999649 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[0] = 56357345567148356 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+====> particionamento COM ERROS
+Erro no elemento Output[0] = 156826049378712457 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 151151763 ns for 1 ops 
+        ==> each op takes 151151763 ns
+total_time_in_seconds: 0.151152 s
+Throughput: 52926938.073491 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[0] = 40988072087967623 na partição [241248338836773344, 298028851196612308)
+Erro no elemento Output[0] = 3593385906294657 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 17876973714291293 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 84697910876269693 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 73779241010485433 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 190475550660833956 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 56676042076605633 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 139515228 ns for 1 ops 
+        ==> each op takes 139515228 ns
+total_time_in_seconds: 0.139515 s
+Throughput: 57341410.788505 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 186383395984403859 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 7801114172921718 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[1] = 2273756011692305 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 224372849830711982 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 122508316 ns for 1 ops 
+        ==> each op takes 122508316 ns
+total_time_in_seconds: 0.122508 s
+Throughput: 65301689.397151 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 185394167916873110 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 116898708083053038 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 33673464349074661 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 21897741736618197 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 1636465456252782 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 221073135606571504 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[2] = 99525414639422888 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[3] = 184646468126906180 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+====> particionamento COM ERROS
+Erro no elemento Output[3] = 119801095209360837 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[3] = 55477070791572749 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 125562057 ns for 1 ops 
+        ==> each op takes 125562057 ns
+total_time_in_seconds: 0.125562 s
+Throughput: 63713514.983272 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[3] = 10684097468886961 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[3] = 203344171170623160 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[3] = 219396280745200688 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[3] = 141528205554528523 na partição [241248338836773344, 298028851196612308)
+Erro no elemento Output[3] = 43406852871195899 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[4] = 234660198507417046 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[4] = 202999989653510659 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[4] = 154753689346152651 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[4] = 82815818819685785 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 124747846 ns for 1 ops 
+        ==> each op takes 124747846 ns
+total_time_in_seconds: 0.124748 s
+Throughput: 64129363.804807 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[4] = 97841181512036974 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[4] = 88737290038413194 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+====> particionamento COM ERROS
+Erro no elemento Output[4] = 137276999743938852 na partição [241248338836773344, 298028851196612308)
+Erro no elemento Output[4] = 44601766629517942 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 228050326097669890 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 231514792747028958 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 214867144142144459 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 77378518278809272 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 181798055931689501 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 122116995 ns for 1 ops 
+        ==> each op takes 122116995 ns
+total_time_in_seconds: 0.122117 s
+Throughput: 65510947.104455 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 215020006429473137 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 162948638409821447 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[5] = 77313998858702154 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 165292688333878958 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 5969130057007865 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 35421106521563586 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 102244497152152226 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 124227948 ns for 1 ops 
+        ==> each op takes 124227948 ns
+total_time_in_seconds: 0.124228 s
+Throughput: 64397747.276643 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 202453415441550491 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 1675101878944643 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 75564092045551039 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[6] = 213821804745620844 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 49137468185157186 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 151452534832752378 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 176678977715124639 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 5239212386397092 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 72053011815316446 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 55479622735283424 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 188971041073044904 na partição [241248338836773344, 298028851196612308)
+====> particionamento COM ERROS
+Erro no elemento Output[7] = 233575942625944598 na partição [241248338836773344, 298028851196612308)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 124163973 ns for 1 ops 
+        ==> each op takes 124163973 ns
+total_time_in_seconds: 0.124164 s
+Throughput: 64430927.963299 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 83080985433885413 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 115703795729087065 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 50661120657633251 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 84294881297195626 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 84808759476397538 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 133338819705695152 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 85803946188353375 na partição [924865417131922241, 930563537742764665)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 121687402 ns for 1 ops 
+        ==> each op takes 121687402 ns
+total_time_in_seconds: 0.121687 s
+Throughput: 65742220.382024 OP/s
+Erro no elemento Output[8] = 2970221023982579 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 85803946188353375 na partição [924865417131922241, 930563537742764665)
+numElem = 8000000
+
+mp_mpi_time deltaT(ns): 123423865 ns for 1 ops 
+        ==> each op takes 123423865 ns
+total_time_in_seconds: 0.123424 s
+Throughput: 64817286.348957 OP/s
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 50661120657633251 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 84294881297195626 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 84808759476397538 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 2970221023982579 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 133338819705695152 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 83080985433885413 na partição [924865417131922241, 930563537742764665)
+====> particionamento COM ERROS
+Erro no elemento Output[8] = 115703795729087065 na partição [924865417131922241, 930563537742764665)
+O tempo total dessa shell foi de 2 segundos
+SLURM_JOB_NAME:  exp1
+SLURM_NODELIST:  wz11
+SLURM_JOB_NODELIST:  wz11
+SLURM_JOB_CPUS_PER_NODE:  8
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             14463     debug     exp1   nobody  R       0:02      1 wz11
