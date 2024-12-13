@@ -1,3 +1,7 @@
+// TRABALHO 3 - CI1316: Programação Paralela
+// Victor Ribeiro Garcia - GRR20203954
+// Álvaro R. S. Dziadzio - GRR20203913
+
 #include <stdio.h>
 #include "verifica.h"
 
@@ -11,13 +15,10 @@ void verifica_particoes(long long *input, int n, long long *P, int np, long long
         for (int i = inicio; i < fim; i++) {
             if (output[i] < npMin || output[i] >= npMax) {
                 printf("\n===Particionamento COM ERROS===\n");
-                printf("Erro no elemento Output[%d] = %lld na partição [%lld, %lld)\n", i, output[i], npMin, npMax);
                 return;
             }
         }
     }
-
-    // Confirmação de que todos os elementos foram particionados corretamente
     printf("\n===Particionamento CORRETO===\n");
 }
 

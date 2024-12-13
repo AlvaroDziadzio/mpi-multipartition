@@ -1,3 +1,7 @@
+// TRABALHO 3 - CI1316: Programação Paralela
+// Victor Ribeiro Garcia - GRR20203954
+// Álvaro R. S. Dziadzio - GRR20203913
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
