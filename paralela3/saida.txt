@@ -1,1 +1,0 @@
-/var/spool/slurmd/job14495/slurm_script rodando no host  hostname
